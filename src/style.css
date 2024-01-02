@@ -1,0 +1,64 @@
+.start-btn {
+    background-color: rgb(110, 231, 183);
+    color: black
+}
+
+.start-btn:hover {
+    background-color: #10b981;
+    color: white
+}
+
+.btns-container button {
+    width: 130px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.previous:hover {
+    background-color: #d1d5db;
+}
+
+.next:disabled,
+.previous:disabled {
+    color: #d1d5db;
+    background-color: #e5e7eb;
+}
+
+.submit {
+    background-color: #f59e0b;
+}
+
+.submit:hover {
+    background-color: #fbbf24;
+}
+
+.timer {
+    border-radius: 50%;
+    background-color: white;
+    top: -45px
+}
+
+.answer {
+    background-color: white;
+    font-weight: bold;
+}
+
+.answer:hover,
+.selected {
+    background-color: #312e81;
+    color: white;
+    cursor: pointer;
+}
+
+.correct, .wrong {
+    color: white;
+}
+
+.correct {
+    background-color: green;
+}
+
+.wrong {
+    background-color: red;
+}
